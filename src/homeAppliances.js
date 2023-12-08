@@ -9,11 +9,11 @@ class homeAppliances{
     }
 
     turnOn(){
-        console.log(this.model, "foi ligada!");
+        console.log(this.model, "foi ligado!");
     }
 
     turnOff(){
-        console.log(this.model, "foi desligada!");
+        console.log(this.model, "foi desligado!");
     }
 }
 
