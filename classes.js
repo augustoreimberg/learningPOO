@@ -97,7 +97,7 @@ class currentAccounts{
         }
     }
 
-    créditPurchase(purchaseValue, installments){
+    creditPurchase(purchaseValue, installments){
         if (purchaseValue <= this.creditLimit){
             if(installments){
                 console.log(this.user, ", sua compra no valor de:", purchaseValue, "foi concluída em", installments, "vezes de:", purchaseValue/installments);
