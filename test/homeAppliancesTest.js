@@ -1,5 +1,5 @@
 //eletrodomesticos
-let homeAppliances = require("../src/homeAppliances");
+const homeAppliances = require("../src/homeAppliances");
 
 let microwave = new homeAppliances(1, "Eletrolux", "Microondas", "branco", "cozinha");
 

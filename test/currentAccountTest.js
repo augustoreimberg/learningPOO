@@ -1,5 +1,5 @@
 //contas correntes
-let currentAccounts = require("../src/currentAccounts");
+const currentAccounts = require("../src/currentAccounts");
 
 let augustoAccount = new currentAccounts(1, "Augusto Reimberg", 100, 200);
 
